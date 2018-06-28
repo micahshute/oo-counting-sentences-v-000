@@ -18,5 +18,3 @@ class String
     self.split(/[!.?]+/).length
   end
 end
-
-# "What is this? A game!? oh ok...".count_sentences
