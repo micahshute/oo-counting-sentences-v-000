@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    puts self.split(/[!.?]+/)
+    self.split(/[!.?]+/).length
   end
 end
 
-"What is this? A game!? oh ok...".count_sentences
+# "What is this? A game!? oh ok...".count_sentences
